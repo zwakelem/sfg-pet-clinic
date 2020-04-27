@@ -1,19 +1,19 @@
-package guru.springframework.sfgpetclinic.model;
+package guru.springframwork.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
 public class PetType {
 
-  private String petType;
+  private String name;
   private Owner owner;
   private LocalDate birthdate;
 
-  public String getPetType() {
-    return petType;
+  public String getName() {
+    return name;
   }
 
-  public void setPetType(String petType) {
-    this.petType = petType;
+  public void setName(String name) {
+    this.name = name;
   }
 
   public Owner getOwner() {
